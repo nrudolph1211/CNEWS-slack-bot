@@ -1,0 +1,20 @@
+{
+  "name": "cnews-slack-digest",
+  "version": "1.0.0",
+  "description": "AI-powered Slack digest bot for Chapman News – summarizes unread messages and extracts action items using Claude.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@slack/bolt": "^4.1.0",
+    "@slack/web-api": "^7.8.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
